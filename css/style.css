@@ -1,0 +1,155 @@
+/* Lettering */
+h1{
+    font-size:60px;
+    font-weight: 400;
+    text-transform: uppercase; 
+    letter-spacing: 6px;
+    color:#2d2d2d;
+    line-height:85px;
+ }
+ h2{
+    font-size:24px;
+    font-weight: 400;
+    text-transform: uppercase; 
+    letter-spacing: 6px;
+    color:#2d2d2d;
+ }
+ h3{
+    font-size:17px;
+    font-weight:100;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#2d2d2d;
+ }
+ h4{
+     font-size:20px;
+     text-transform:capitalize;
+     font-weight: 400;
+     letter-spacing: 2.7px;
+     color:#2d2d2d;
+ }
+ h5{
+    font-size:18px;
+    text-transform:capitalize;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+    color:#2d2d2d;
+}
+h6{
+  color:#9c9c9c;
+  font-size:11px;
+  font-weight:100;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  bottom:-18px;
+  left:110px;
+}
+p{
+    font-size:16px;
+    color:#5b5b5b;
+    line-height:32px;
+}
+ 
+ /* Complementos */
+ *{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.row{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.row-reverse{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.colum{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;   
+}
+.col-3{
+   width: calc(100%/4);
+}
+.col-6{
+    width:50%;
+}
+.col-4{
+    width:calc(100%/3);
+}
+.col-8{
+    width:calc(100%/1.5);
+}
+.text-center{
+    text-align:center;
+}
+.pt-16{
+    padding-top:16px;
+}
+.pt-10{
+    padding-top:9px;
+}
+.pt-115{
+    padding-top:115px;
+}
+.pt-120{
+    margin-top:140px;
+}
+.absolute{
+    position:absolute;
+}
+.relative{
+   position:relative;
+}
+
+/* Cabecera */
+.frame-head{
+    height: 510px;
+    background-color: #f9f9f9;
+}
+.container-head{
+    padding-top:70px;
+}
+
+
+/* Cuerpo */
+.bh{
+    height:160px;
+}
+/* Boxes */
+.container-boxes{
+    margin-top:-165px;
+}
+.frame-body{
+    margin-left:105px;
+    margin-right:105px;
+}
+
+
+/* Galery */
+
+.gn-text{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+}.galery-nav{
+    display:inline-block;
+    padding:0px 10px;
+    z-index:10;
+    margin-top:50px;
+    transform: translateX(-20px);
+    color:#2d2d2d;
+}
+
+
+
+/* Testimonial */
+.frame-testimonial{
+    height: 750px;
+    background-color: #f9f9f9;
+}

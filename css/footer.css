@@ -1,0 +1,41 @@
+.footer{
+    background-color: #111111;
+}
+.info-footer{
+    padding: 110px 120px;
+}
+.text-white{
+    color:#ffffff;
+    font-size:14px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.img-footer-container{
+    top:18px;
+}
+
+.copyright{
+    background-color:#1d1d1d;
+}
+.light{
+    color: #ababab;
+}
+.info-copyright{
+    padding:15px 117px;
+}
+.none{
+    text-decoration: none;
+    color: #ababab;
+}
+
+.networks{
+    display: inline-block;
+    padding:0 10px;
+}
+.networks-container{
+    top:8px;
+    right:10px;
+    bottom:0;
+    left:0;
+}

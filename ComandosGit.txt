@@ -1,0 +1,4 @@
+dir: listado de archivos en la carpeta
+cls: clear screen
+
+git init: inicializa repositorio
